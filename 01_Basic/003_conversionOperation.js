@@ -19,3 +19,5 @@ console.log(Boolean(LoggedIn)); // true
 console.log(Boolean(nullLoggedIn)); // false
 console.log(Boolean(stringLoggedIn)) // false
 console.log(Boolean(strLoggedIn)); // true
+
+

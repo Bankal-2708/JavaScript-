@@ -12,7 +12,7 @@ console.log(typeof []); // Output: object (arrays are also considered objects in
 console.log(typeof function () { }); // Output: function
 console.log(typeof Symbol('symbol')); // Output: symbol
 
-console.log(typeof (typeof 1)); 
+console.log(typeof (typeof 1));
 console.log(typeof (typeof {})); // string everything
 
 console.log(null == undefined); // Output: true (because null and undefined are loosely equal)
@@ -34,19 +34,20 @@ console.log("Bankal" + 1);
 console.log(1 + "Bankal");
 console.log(1 + "Bankal" + 2);
 console.log(1 + "Bankal" + 2 + "Mavi");
-console.log("1" + 2 + 1);
-console.log("1" + "2" + 1);
-console.log(1 + "2" + 1);
+console.log("1" + 2 + 1); // 121
+console.log(1 + 2 + "3"); // 33
+console.log("1" + "2" + 1); // 121
+console.log(1 + "2" + 1); // 121
 
 console.log("Substracting...");
-console.log("Bankal" - 1);
-console.log(1 - "Bankal");
-console.log(1 - "Bankal" + 1);
-console.log(1 + "Bankal" - 1);
+console.log("Bankal" - 1); // NaN
+console.log(1 - "Bankal"); // NaN
+console.log(1 - "Bankal" + 1); // NaN
+console.log(1 + "Bankal" - 1);// NaN
 
-console.log("1" - 2); // - operator does not work on string so it convert string into number
-console.log("1" - "2" + 1);
-console.log(1 - "2" - 1);
+console.log("1" - 2); // - operator does not work on string so it convert string into number // -1
+console.log("1" - "2" + 1);  // 0
+console.log(1 - "2" - 1); -2
 
 
 console.log({} + {});
