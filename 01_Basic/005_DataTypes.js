@@ -34,3 +34,35 @@ const arrowFun = () => {
 
 // myFun();
 // arrowFun();
+
+
+// +++++++++++++++++++++++++++ MEMORY +++++++++++++++++++++++++++++
+
+// stack is use for premitive data type
+
+// in stack if we want to update the value then it give the copy of original value and let it change
+
+let nameOne = "Bankal";
+let nameTwo = nameOne;
+
+nameTwo = "Bankal Mavi"
+
+console.log(nameOne);
+console.log(nameTwo);
+
+
+// heap is use for Non - Premetive data type
+
+// in heap if we want to update the value then it give the original value instead of copying
+
+let userOne = {
+  name : "Bankal",
+  age : 20
+}
+
+let userTwo = userOne;
+
+userTwo.name = "Bankal Mavi"
+
+console.log(userOne);
+console.log(userTwo)
