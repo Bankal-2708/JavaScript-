@@ -1,0 +1,52 @@
+CLOSURE : is a js behaviour where an inner function remember or can access the variable from outer funtion evern the outer function finished executing.
+
+HOISTING : is the behaviour of js in which js move the variable or function declaration to the top of their scope
+
+UNDEFINED : variable hass been declared but not assign any value, let a;
+
+NULL variable have null value, let a = null;
+null == undefined => true
+null === undefined => false
+
+
+PROMISE : is an object that represent an future value to succes or reject or pending
+
+
+DOM : document object model it's a tree like structure or representation of the html page that browser create it in memory
+
+EVENT BUBBLING and EVENT CAPTURING : when u click on a btn to make chnage it does not directly affect the element  it travel through the DOM tree
+
+EVENT BUBBLING : The event travels UP from the target element back to the root. This is the DEFAULT behavior in JavaScript. like div, fotter, body...
+
+To stop the bubbling : event.stopPropagation() inside the handler.
+
+EVENT CAPTURING : The event travels DOWN from the root (document) to the target element. like  body, fotter, div, button...
+
+addEventListener('click', handler, true
+
+LOCALSTORAGE : hold the data even the tab closed 
+SESSIONAL : STORAGE cleared when the TAB is closed
+COOCKIES : small (4KB), sent to the server with EVERY request,
+
+
+
+
++++++++++++++++++++++++++++++ REACT +++++++++++++++++++++++++++++
+
+React is a JavaScript library that is use to build a user interface(UI), especially single page applications by using reusable components
+
+it was created by meta/facebook
+
+COMPONENTS : components are the reusable, independent piece of code of ui 
+
+PROPS : it means properties are how pass data from parents to child components, when we pass data by props we cant modify this only for read and use (props are immutable)
+
+STATE : state is data that belongs to a components and change over time, when the state change react automatically re-render the component and update the changes on UI 
+
+USESTATE : it returns an array with two items, the current state and a function to update it
+
+USEEFFECT : it is a react hook that let you perform side effects in a functional component without disturbing the main thread, it run you code after your component re-render(featching data from api, setTimout, setInterval etc...)
+
+its dependencies : [] => run only once when page load
+[count] => when count chnage
+no dependencies => run on every re-rendering

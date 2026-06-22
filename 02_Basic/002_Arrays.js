@@ -84,7 +84,14 @@ const totalEven = number.reduce((acc, curr) => {
   return curr % 2 === 0 ? acc + 1 : acc
 }, 0)
 
-console.log(totalEven);
+// console.log(totalEven);
+
+
+const names = ["Ankush","Bankal","Kittu"]
+
+for(let name of names){
+  console.log(name);
+}
 
 
 
