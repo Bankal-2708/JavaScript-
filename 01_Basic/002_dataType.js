@@ -22,6 +22,7 @@ console.log(undefined == 0); // Output: false (because undefined is only loosely
 console.log(NaN == NaN); // Output: false (because NaN is not equal to anything, including itself)
 
 console.log("Type of....");
+
 console.log(typeof NaN); // Output: number (NaN is considered a number in JavaScript)
 console.log({} === {}); // Output: false (because they are different objects in memory)
 console.log(null === null); // Output: true (because null is a primitive value and both sides are the same)

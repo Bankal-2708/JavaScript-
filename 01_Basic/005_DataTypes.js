@@ -38,7 +38,9 @@ const arrowFun = () => {
 
 // +++++++++++++++++++++++++++ MEMORY +++++++++++++++++++++++++++++
 
-// stack is use for premitive data type
+// stack is use for premitive data type  
+
+// string, number, boolean, undefined, null, symbol, bigint
 
 // in stack if we want to update the value then it give the copy of original value and let it change
 
@@ -52,6 +54,8 @@ console.log(nameTwo);
 
 
 // heap is use for Non - Premetive data type
+
+//  object, array, function
 
 // in heap if we want to update the value then it give the original value instead of copying
 
