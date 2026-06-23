@@ -55,8 +55,17 @@ const course = {
 const { name, price, instructur } = course
 // console.log(name); // we can assess directly and easily
 
-const {name : courseName} = course // destructure
+const { name: courseName } = course // destructure
 
-console.log(courseName);
+// console.log(courseName);
+
+let users = [
+  { name: "Bankal", age: 20 },
+  { name: "Ankush", age: 19 },
+  { name: "Ashu", age: 18 }
+]
+
+let underAge = users.some((user) => user.age < 18)
+console.log(underAge);
 
 
