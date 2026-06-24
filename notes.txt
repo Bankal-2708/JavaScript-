@@ -33,6 +33,13 @@ SESSIONAL : STORAGE cleared when the TAB is closed
 COOCKIES : small (4KB), sent to the server with EVERY request,
 
 
+THIS : this refres the current context like if we print 'this' then it print the current function or object       
+we can't use this in function only in obj
+
+
+IIFE : (Immediate Invoked function Expression) it is a functionthat define ans execute Immediately
+
+
 
 +++++++++++++++++++++++++++++ REACT +++++++++++++++++++++++++++++
 
