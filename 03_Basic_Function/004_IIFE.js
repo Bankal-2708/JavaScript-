@@ -9,7 +9,10 @@
 })();
 
 ((name)=>{
-  console.log(`DB CONNECTED SECOND ${name}`);
+  console.log(`DB CONNECTED TWO ${name}`);
   
 })('Bankal Mavi');
 
+(()=>{
+  console.log("IIFE")
+})();
