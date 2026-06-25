@@ -3,17 +3,13 @@
 
 
 (function(){
-
   console.log("DB Connected");
-  
 })();
 
 ((name)=>{
   console.log(`DB CONNECTED TWO ${name}`);
-  
 })('Bankal Mavi');
 
 (()=>{
-  con
-  sole.log("IIFE")
+  console.log("IIFE")
 })();
