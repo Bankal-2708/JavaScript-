@@ -14,5 +14,6 @@
 })('Bankal Mavi');
 
 (()=>{
-  console.log("IIFE")
+  con
+  sole.log("IIFE")
 })();
