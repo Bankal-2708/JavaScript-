@@ -13,7 +13,7 @@ null == undefined => true
 null === undefined => false
 
 
-PROMISE : is an object that represent an future value to succes or reject or pending
+PROMISE : is an object that represent the future value to succes or reject or pending
 
 
 DOM : document object model it's a tree like structure or representation of the html page that browser create it in memory
@@ -38,7 +38,12 @@ we can't use this in function only in obj
 
 
 IIFE : (Immediate Invoked function Expression) it is a functionthat define ans execute Immediately
+why : we face problem sometime due to pollution of global scope , we use this to remove tha variable or pollution of global 
 
+
+JS EXECUTION PROCESS : js execute code in two phase  (globle execution context and functional execution context)
+  1) memory phase : took all variables and put them in memory (memory allocation)
+  2) execution phase : function perform calculation and make result globaly
 
 
 +++++++++++++++++++++++++++++ REACT +++++++++++++++++++++++++++++
@@ -93,3 +98,24 @@ direclty updating the real dom is SLOW (it repaint everything)
 
 
 FLEX BOX : it ia a layout system that is use to arrange elements in a row or a column 
+CSS SPECIFICITY : specifitiy determines which CSS rule win when multiple rules target the same element
+  1) inline CSS
+  2) ID selector CSS
+  3) Class selector CSS
+  4) element selector CSS(dic, header etc)
+
+CSS Positions : 
+  1) static : Default position of all elements. The element follows the normal document flow and ignores top, left,  right, and bottom.
+  
+  2) relative : The element stays in the normal flow but can be moved relative to its original position using top, left, right, or bottom.
+
+  3) absolute : The element is removed from the normal flow and positioned relative to its nearest positioned ancestor.
+
+  4) fixed : The element is removed from the normal flow and positioned relative to the browser viewport. It stays fixed even when scrolling.
+
+  {
+    Static → Normal flow
+    Relative → Move from original position
+    Absolute → Relative to parent
+    Fixed → Fixed to screen   
+  }
