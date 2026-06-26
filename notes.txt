@@ -39,6 +39,10 @@ we can't use this in function only in obj
 
 IIFE : (Immediate Invoked function Expression) it is a functionthat define ans execute Immediately
 
+TRUTHY : '0', 'false', ' ', [], {},  function(){}
+
+FALSY : fase, 0, -0, null, undefine, NAN, BigInt 0n , all are falsy values
+
 
 
 +++++++++++++++++++++++++++++ REACT +++++++++++++++++++++++++++++
