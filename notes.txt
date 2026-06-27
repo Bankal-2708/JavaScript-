@@ -40,6 +40,10 @@ we can't use this in function only in obj
 IIFE : (Immediate Invoked function Expression) it is a functionthat define ans execute Immediately
 why : we face problem sometime due to pollution of global scope , we use this to remove tha variable or pollution of global 
 
+TRUTHY : '0', 'false', ' ', [], {},  function(){}
+
+FALSY : fase, 0, -0, null, undefine, NAN, BigInt 0n , all are falsy values
+
 
 JS EXECUTION PROCESS : js execute code in two phase  (globle execution context and functional execution context)
   1) memory phase : took all variables and put them in memory (memory allocation)

@@ -3,16 +3,14 @@
 
 
 (function(){
-
   console.log("DB Connected");
-  
 })();
 
 ((name)=>{
   console.log(`DB CONNECTED TWO ${name}`);
-  
 })('Bankal Mavi');
 
-(()=>{
-  console.log("IIFE")
+
+(function(){
+  console.log('Dev branch');
 })();
