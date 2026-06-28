@@ -2,7 +2,7 @@
 
 JAVASCRIPT : js is a high level interpreted programming language that is use to create a web pages interactive and dynamic
 
-CLOSURE : is a js behaviour where an inner function remember or can access the variable from outer funtion evern the outer function finished executing.
+CLOSURE : is a js behaviour where an inner function remember or can access the variable from outer funtion even the outer function finished executing.
 
 HOISTING : is the behaviour of js in which js move the variable or function declaration to the top of their scope
 
@@ -13,20 +13,20 @@ null == undefined => true
 null === undefined => false
 
 
-PROMISE : is an object that represent the future value to succes or reject or pending
+PROMISE : is an object that represent the future value to succes, reject or pending
 
 
 DOM : document object model it's a tree like structure or representation of the html page that browser create it in memory
 
 EVENT BUBBLING and EVENT CAPTURING : when u click on a btn to make chnage it does not directly affect the element  it travel through the DOM tree
 
-EVENT BUBBLING : The event travels UP from the target element back to the root. This is the DEFAULT behavior in JavaScript. like div, fotter, body...
-
+EVENT BUBBLING : The event travels Upper-side from the target element back to the root. This is the DEFAULT behavior in JavaScript. like div, footer, body...
+ 
 To stop the bubbling : event.stopPropagation() inside the handler.
 
-EVENT CAPTURING : The event travels DOWN from the root (document) to the target element. like  body, fotter, div, button...
+EVENT CAPTURING : The event travels DOWN from the root (document) to the target element. like  body, footer, div, button...
 
-addEventListener('click', handler, true
+addEventListener('click', handler, true)
 
 LOCALSTORAGE : hold the data even the tab closed 
 SESSIONAL : STORAGE cleared when the TAB is closed
@@ -123,3 +123,6 @@ CSS Positions :
     Absolute → Relative to parent
     Fixed → Fixed to screen   
   }
+
+
+  
