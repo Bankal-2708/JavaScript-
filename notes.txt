@@ -49,6 +49,15 @@ JS EXECUTION PROCESS : js execute code in two phase  (globle execution context a
   1) memory phase : took all variables and put them in memory (memory allocation)
   2) execution phase : function perform calculation and make result globaly
 
+ADD ELEMENT : 
+ 
+    function addLanguageOptm(langName){  // funtcion create
+    const li = document.createElement('li') // li element create
+    li.appendChild(document.createTextNode(langName)) // text written in li element
+    document.querySelector('.language').appendChild(li) // element added at the end
+  }
+  addLanguageOptm('golang')
+
 
 +++++++++++++++++++++++++++++ REACT +++++++++++++++++++++++++++++
 
