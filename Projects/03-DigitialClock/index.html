@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,21 +50,50 @@
   }
 
 
-  .main{
+  .main {
     margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
+  #clock {
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+  }
+
+  #time {
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+  }
 </style>
 
 <body class="body">
   <nav class="nav">
     <a class="nav-item" href="../Index.html">Home</a>
   </nav>
-  
-  <main class="main">
-    <h1>Color Schema Switcher</h1>
-  </main>
 
+  <main class="main">
+    <h1>Digital Clock</h1>
+
+    <div>
+      <h1>Your Local Time</h1>
+
+    </div>
+    <div id="time"></div>
+    <div id="clock"></div>
+  </main>
+  <script src="./script.js"></script>
 </body>
 
 </html>
