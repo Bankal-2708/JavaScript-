@@ -51,21 +51,65 @@
   }
 
 
-  .main{
+  .main {
     margin-top: 80px;
+    text-align: center;
   }
 
+  .game {
+    border: 1px solid white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(84, 57, 57);
+  }
+
+  #input{
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+  }
+  #sub{
+    margin-top: 10px;
+    padding: 5px 10px ;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .form{
+    display: inline-flex;
+    flex-direction: column;
+  }
 </style>
 
 <body class="body">
   <nav class="nav">
     <a class="nav-item" href="../Index.html">Home</a>
   </nav>
-  
+
   <main class="main">
-    <h1>Color Schema Switcher</h1>
+    <h1>Number guessing Game</h1>
+    <div class="game">
+      <p>
+        Try guessing number between 1 and 100.
+        You have 10 attempts to guess the right number.
+      </p>
+      <h1>Guess a Number</h1>
+      <form class="form">
+        <input id="input" type="text" placeholder="Number">
+        <input type="submit" id="sub" value="Submit guess" >
+      </form>
+      <div class="resultParas">
+         
+        <p> Previous Guess : <span class="guess"></span></span></p>
+        <p>Guesses Remaning : <span class="result">10</span> </p>
+        <p class="lowOrHi"></p>
+      </div>
+    </div>
   </main>
 
+  <script src="./script.js"></script>
 </body>
 
 </html>
