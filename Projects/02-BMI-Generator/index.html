@@ -52,6 +52,34 @@
 
   .main{
     margin-top: 80px;
+    text-align: center;
+  }
+
+  .height{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input{
+    height: 20px;
+  }
+
+  .btn{
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+  }
+
+  .btn:hover{
+    background-color: #cdc9c9;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+
+  .result{
+    margin: 5px;
+    color:red;
   }
 
 </style>
@@ -62,9 +90,31 @@
   </nav>
   
   <main class="main">
-    <h1>Color Schema Switcher</h1>
+    <form >
+      <h1>BMI Calculator</h1>
+    <div class="height">
+      <h3>Height in CM :</h3>
+      <input class="input" id="height" placeholder="Height" type="text">
+    </div>
+    <div class="height">
+      <h3>Weight in KG :</h3>
+      <input class="input" id="weight" placeholder="Weight" type="text">
+    </div>
+
+    <button class="btn">Calculate</button>
+    <div class="result" id="result"></div>
+
+    <h2>BMI Weight Guide</h2>
+    <div>
+      <h4>Under Weight = Less than 18.6</h4>
+      <h4>Normal Range = 18.6 and 24.9 </h4>
+      <h4>Overweight = Greater than 24.9 </h4>
+    </div>
+
+    </form>
   </main>
 
+  <script src="./script.js"></script>
 </body>
 
 </html>
