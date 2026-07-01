@@ -2,6 +2,8 @@
 
 JAVASCRIPT : js is a high level interpreted programming language that is use to create a web pages interactive and dynamic
 
+Js is Synchronous(one by one code execute) (single threaded)
+
 CLOSURE : is a js behaviour where an inner function remember or can access the variable from outer funtion evern the outer function finished executing.
 
 HOISTING : is the behaviour of js in which js move the variable or function declaration to the top of their scope
@@ -42,6 +44,8 @@ IIFE : (Immediate Invoked function Expression) it is a functionthat define ans e
 TRUTHY : '0', 'false', ' ', [], {},  function(){}
 
 FALSY : fase, 0, -0, null, undefine, NAN, BigInt 0n , all are falsy values
+
+ASYNC CODE : 
 
 
 
